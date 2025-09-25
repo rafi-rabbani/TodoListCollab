@@ -8,10 +8,12 @@ public class Back {
         this.daftarTugas = new ArrayList<>();
     }
     public void lihatTugas() {
+
         if (daftarTugas.isEmpty()) {
-            System.out.println("Tidak ada tugas dalam daftar.");
+            System.out.println("\nTidak ada tugas dalam daftar\n");
+
         } else {
-            System.out.println("Daftar Tugas:");
+            System.out.println("\nDaftar Tugas:");
             for (int i = 0; i < daftarTugas.size(); i++) {
                 System.out.println((i + 1) + ". " + daftarTugas.get(i));
             }
