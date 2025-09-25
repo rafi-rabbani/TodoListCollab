@@ -22,15 +22,15 @@ public class front {
                 case 1:
                     brain.lihat();
                     break;
-                case 2:
-                    brain.Tambah();
-                    break;
-                case 3:
-                    brain.Ubah();
-                    break;
-                case 4:
-                    brain.Hapus();
-                    break;
+                // case 2:
+                //     brain.tambah();
+                //     break;
+                // case 3:
+                //     brain.ubah();
+                //     break;
+                // case 4:
+                //     brain.hapus();
+                //     break;
             
                 default:
                     System.out.println("\ninput anda tidak tersedia\n");

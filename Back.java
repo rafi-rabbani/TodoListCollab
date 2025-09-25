@@ -7,7 +7,7 @@ public class Back {
     public Back() {
         this.daftarTugas = new ArrayList<>();
     }
-    public void lihatTugas() {
+    public void lihat() {
 
         if (daftarTugas.isEmpty()) {
             System.out.println("\nTidak ada tugas dalam daftar\n");
