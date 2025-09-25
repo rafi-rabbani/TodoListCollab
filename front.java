@@ -42,6 +42,7 @@ public class front {
             if (lanjut.equals("n")) {
                 break;
             }
+            input.close();
         }
     }
 }
