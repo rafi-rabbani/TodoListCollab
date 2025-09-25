@@ -3,6 +3,8 @@ public class front {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
 
+        Back brain = new Back();
+
         while (true) {
             System.out.println("\n");
 
@@ -18,7 +20,7 @@ public class front {
         
             switch (pilihan) {
                 case 1:
-                    System.out.println("\nLIHAT\n");
+                    brain.lihatTugas();
                     break;
                 case 2:
                     System.out.println("\nTAMBAH\n");
@@ -43,7 +45,7 @@ public class front {
                 break;
             }
             input.close();
-            
+
         }
     }
 }
